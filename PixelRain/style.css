@@ -1,0 +1,18 @@
+*    /*  * para seleccionar todos los elementos de la página */ 
+{
+    margin: 0;  /* hacemos esto para que sea igual en todos los navegadores */
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+
+#canvas1
+{
+    border: 2px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   /* lo centramos horizontal y verticalmente*/
+    width: 330px;   /* el tamaño del canvas tiene que ser el mismo que el de la imagen*/
+    height: 414px;
+}
